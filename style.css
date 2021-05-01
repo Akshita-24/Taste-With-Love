@@ -1,0 +1,53 @@
+.text-pink{
+   color:#ff017e ;
+}
+.nav-link i{
+    color:#ff017e ;
+}
+.dropdown-menu :hover{
+     background:#ff017e ;
+}
+.text-orange h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-orange p{
+    font-family: monospace;
+}
+.container h1{
+    font-family: optima;
+    color: maroon;
+}
+.container p{
+    font-family:Comic Sans Ms;
+    color: #e60a80;
+}
+.fixed{
+    background: url(home7.jpg) black no-repeat  bottom fixed;
+    height: 500px;
+    width: 1400px; 
+   background-size: cover;
+}
+.fixed h1{
+    color: #d6c76c; 
+    font-family: 'Courier New', Courier, monospace;  
+}
+.form-control:hover {
+    background:#8b755a;
+}
+.fixed-menu{
+    background: url(home1.jpg) black no-repeat  top fixed;
+    height: 400px;
+    width: 1400px; 
+   background-size: cover;
+}
+.fixed-menu h1{
+    background-color:rgb(0,0,0,0.5);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
