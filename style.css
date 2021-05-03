@@ -23,22 +23,29 @@
 }
 .fixed{
     background: url(home7.jpg) black no-repeat  bottom fixed;
-    height: 500px;
-    width: 1400px; 
+    height: 500px; 
    background-size: cover;
+   /* background-image:url(home7.jpg) ; */
+background-repeat:no-repeat;
+background-size: 100%;
+background-position:center;  
 }
 .fixed h1{
     color: #d6c76c; 
     font-family: 'Courier New', Courier, monospace;  
+    
 }
 .form-control:hover {
-    background:#8b755a;
+    background:#e6b171;
 }
 .fixed-menu{
     background: url(home1.jpg) black no-repeat  top fixed;
-    height: 400px;
-    width: 1400px; 
+    height: 500px;
+     
    background-size: cover;
+   background-repeat:no-repeat;
+background-size: 100%;
+background-position:center;
 }
 .fixed-menu h1{
     background-color:rgb(0,0,0,0.5);
@@ -48,6 +55,89 @@
 html{
     scroll-behavior: smooth;
 }
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+    
+    }
+    .fixed h1{
+        color: #d6c76c; 
+        font-family: 'Courier New', Courier, monospace;  
+        font-size: 20px;
+    }
+  
+    .carousel-caption p{
+        display: none;
+    }
+    .navbar-toggler{
+        margin: 0;
+        padding: 0;
+    }
+   .fixed{
+      width: 100%;
+      height: auto;
+   }
+   #comment-box{
+       width: 300px;
+       columns: 6;
+   }
+ .img-fluid {
+     margin-top: 5px;
+     padding: 5px;
+ }
+ .gallery{
+     margin-top: 10px;
+ }
+ .reserv h1{
+     font-size: 50px;
+ }
+ .reserv i{
+     display: none;
+ }
+.register-form{
+    column-count: auto;
+    width: 550px;
+}
+.register-form button{
+    display: inherit;
+}
+.modal-body{
+    width: 300px;
+    
+}
+.fixed{
+    background: url(home7.jpg) black no-repeat  bottom fixed;
+    height: 140px; 
+   background-size: cover;
+   /* background-image:url(home7.jpg) ; */
+background-repeat:no-repeat;
+background-size: 150%;
+background-position:center;  
+}
+.fixed-menu{
+    background: url(home1.jpg) black no-repeat  top fixed;
+    height: 140px; 
+   background-size: cover;
+   /* background-image:url(home7.jpg) ; */
+    background-repeat:no-repeat;
+    background-size: 150%;
+    background-position:center;
+}
+.fixed-menu h1{
+    background-color:rgb(0,0,0,0.5);
+    color: white;
+    height: 140px;
+    background-size: 150%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
 
 
-
+/* @media (max-width: 1000px) {
+.fixed{
+    height: 500px;
+}} */
